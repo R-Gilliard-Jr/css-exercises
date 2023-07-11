@@ -1,0 +1,20 @@
+.odd {
+    background-color: #f5429b;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: #4245f5;
+    font-size: 36px;
+}
+
+.three {
+    font-size: 24px;
+}
+
+/* Could reduce duplicate code here by reusing the .three class above */
+#four {
+    background-color: #42f569;
+    font-size: 24px;
+    font-weight: bold;
+}
