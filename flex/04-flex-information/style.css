@@ -27,7 +27,7 @@ img {
   justify-content: center;
   background: #eee;
 }
-
+/* Solution could be more concise, but pretty good */
 .img-align {
   display: flex;
   justify-content: center;
