@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 8px;
 }
 
 img {
@@ -16,6 +27,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  margin: 0 8px;
+  padding: 4px;
 }
 
 input {
@@ -24,4 +37,36 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.buttons, .input {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4px;
+}
+
+.footer-container {
+  background-color: #eeeeee;
+}
+
+ul.left-links, ul.right-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
